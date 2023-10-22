@@ -1,12 +1,10 @@
 import {createAction, createReducer} from '@reduxjs/toolkit';
 
+//create the actions
 export const increment = createAction('increment/counter');
 export const decrement = createAction('decrement/counter');
 export const increaseAmount = createAction('increaseByAmount/counter');
 
-
-//reducers
-//1. create builder notsation
 
 const initialState = {
     value: 0
